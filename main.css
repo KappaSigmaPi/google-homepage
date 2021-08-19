@@ -1,8 +1,9 @@
 body, html{
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     min-width: 400px;
+    overflow: hidden;
 }
 body {
     background-color: #fff;
@@ -108,4 +109,18 @@ footer {
 }
 .in-footer-item {
     padding: 13px;
+}
+.fake-link {
+    color: #353535;
+    text-decoration: none;
+}
+.fake-link:hover {
+    text-decoration: underline;
+}
+.fake-link-2 {
+    color: #787878;
+    text-decoration: none;
+}
+.fake-link-2:hover {
+    text-decoration: underline;
 }
